@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/change_profile"
+        android:id="@+id/toolbar_profile_menu_changeprofile"
+        android:icon="@drawable/ic_change_profile"
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
+    <item
+        android:title="@string/exit"
+        android:id="@+id/toolbar_profile_menu_exit"
+        android:icon="@drawable/ic_exit"
+        android:orderInCategory="200"
+        app:showAsAction="always"/>
+</menu>

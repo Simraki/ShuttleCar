@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4caf50</color>
+    <color name="colorPrimaryDark">#087f23</color>
+    <color name="colorPrimaryLight">#80e27e</color>
+
+    <color name="colorAccent">#429945</color>
+
+    <color name="gray_light">#f0f0f0</color>
+    <color name="gray">#e6e6e6</color>
+    <color name="gray_dark">#b7b7b7</color>
+
+    <color name="colorOrderContentText">#a9a9a9</color>
+    <color name="blackLight">#343d43</color>
+
+    <color name="colorRed">@android:color/holo_red_dark</color>
+    <color name="colorRedDark">#990000</color>
+
+    <color name="time_picker_color_text_hour_noact">#d6d6d6</color>
+    <color name="time_picker_color_text_min_act">#404040</color>
+</resources>

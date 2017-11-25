@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/send"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="40dp"
+    android:layout_marginEnd="40dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Напишите своё пожелание или сообщите об ошибке"
+        android:textAlignment="center"
+        android:textColor="@color/gray_dark"
+        android:textSize="16sp" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/send_et_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Сообщение"
+            android:maxLines="10"
+            android:inputType="textMultiLine" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <com.dd.CircularProgressButton
+        android:id="@+id/send_cbtn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:cpb_colorIndicator="@color/colorPrimary"
+        app:cpb_colorIndicatorBackground="@android:color/white"
+        app:cpb_colorProgress="@color/colorPrimaryLight"
+        app:cpb_cornerRadius="2dp"
+        app:cpb_selectorIdle="@drawable/circular_button_style"
+        app:cpb_textComplete="@string/complete_upper"
+        app:cpb_textError="@string/error_upper"
+        app:cpb_textIdle="ОТПРАВИТЬ" />
+
+</LinearLayout>

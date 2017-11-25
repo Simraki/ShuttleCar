@@ -1,0 +1,117 @@
+<resources>
+
+    <!-- Title -->
+    <string name="app_name">Маршрутка</string>
+
+    <string name="title_activity_map">Map</string>
+    <string name="title_profile">Мой профиль</string>
+    <string name="title_changeprofile">Изменить профиль</string>
+    <string name="title_order">Поездка</string>
+    <string name="title_settings">Настройки</string>
+    <string name="title_send">Написать разработчику</string>
+    <string name="title_map">Карта</string>
+
+    <!-- Nav_bar -->
+    <string name="nav_bar_find">Найти</string>
+    <string name="nav_bar_add">Добавить</string>
+    <string name="nav_bar_my">Мои</string>
+    <string name="nav_bar_reserve">Бронь</string>
+    <string name="nav_bar_rate">Оценить</string>
+
+    <!-- Subtitle -->
+    <string name="subtitle_find">Найти водителя</string>
+    <string name="subtitle_add">Добавить поездку</string>
+    <string name="subtitle_my">Мои поездки</string>
+    <string name="subtitle_reserve">Забронированные поездки</string>
+    <string name="subtitle_rate">Оценить водителя</string>
+    <string name="subtitle_found">Найденные поездки</string>
+
+    <!-- Base parameters -->
+    <string name="name">Имя</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="phone_number">Номер телефона</string>
+    <string name="pdis">Откуда</string>
+    <string name="inter_point">Промежуточный пункт</string>
+    <string name="pdel">Куда</string>
+    <string name="count_place">Количество мест</string>
+    <string name="car_brand">Марка машины</string>
+    <string name="car_model">Модель машины</string>
+
+    <!-- Find_fragment AND Add_fragment -->
+    <string name="datetime_pick">Выбрать время</string>
+    <string name="var_lugg_size">Допустимые размеры багажа</string>
+
+    <!-- Actions -->
+    <string name="find_upper">НАЙТИ</string>
+    <string name="find">Найти</string>
+    <string name="enter">ВОЙТИ</string>
+    <string name="register">ЗАРЕГИСТРИРОВАТЬСЯ</string>
+    <string name="add">ДОБАВИТЬ</string>
+    <string name="change_upper">ИЗМЕНИТЬ</string>
+    <string name="change">Изменить</string>
+    <string name="rate">Оценить</string>
+    <string name="change_password">Изменить пароль</string>
+
+    <string name="cancel">Отмена</string>
+    <string name="pick">Выбрать</string>
+
+    <!-- Menu_title -->
+    <string name="profile">Профиль</string>
+    <string name="change_profile">Изменить профиль</string>
+    <string name="exit">Выйти из профиля</string>
+
+    <!-- State -->
+    <string name="complete_upper">УСПЕШНО</string>
+    <string name="error_upper">ОШИБКА</string>
+
+    <!-- Change_rating -->
+    <string name="title_change_rating">"Введите номер телефона водителя, которого хотите оценить    :D"</string>
+
+    <!-- Change_password -->
+    <string name="old_password">Старый пароль</string>
+    <string name="new_password">Новый пароль</string>
+    <string name="verf_new_password">Подтвердите новый пароль</string>
+
+    <!-- Login_fragment -->
+    <string name="to_register">Ещё не с нами? Зарегистрируйся! :D</string>
+
+    <!-- Register_fragment -->
+    <string name="to_login">Уже с нами? Войди!</string>
+
+    <!-- Add_order -->
+    <string name="time">"Время: "</string>
+
+    <!-- Empty & Unspecified-->
+    <string name="empty" />
+    <string name="unspecified">Не указано</string>
+
+    <!-- Date_form -->
+    <string name="form_date_old">d MMMM yyyyHH:mm</string>
+    <string name="form_date_show">d MMMM   HH:mm</string>
+    <string name="form_date_db">yyyy-MM-dd</string>
+    <string name="form_date_text">d MMMM</string>
+    <string name="form_time">HH:mm</string>
+
+
+    <!-- Delete_Order_Dialog -->
+    <string name="dialog_delete_order">Вы точно хотите удалить поездку?</string>
+
+
+    <!-- Luggage_size -->
+    <string-array name="array_luggage_size">
+        <item>Без багажа</item>
+        <item>Малый</item>
+        <item>Средний</item>
+        <item>Большой</item>
+    </string-array>
+
+    <!-- Places -->
+    <string-array name="array_places">
+        <item>ДК Кировского</item>
+        <item>Бульвар Строителей</item>
+        <item>ДК Шахтёров</item>
+        <item>КузГТУ</item>
+        <item>Швейная фабрика</item>
+    </string-array>
+</resources>

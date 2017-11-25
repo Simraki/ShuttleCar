@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="20dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/setting_btn_back"
+        android:text="О программе"
+        android:textColor="@color/blackLight"
+        android:layout_marginBottom="7dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/settings_tv_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setting_btn_back"
+        android:padding="10dp"
+        android:text="Написать разработчику"
+        android:textColor="@color/blackLight"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
